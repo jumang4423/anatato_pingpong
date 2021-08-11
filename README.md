@@ -7,5 +7,5 @@
 # deploy 
 
 ```bash
-yarn run build && yarn run export && firebase deploy
+yarn run build && yarn run export && firebase deploy --only hosting
 ```
