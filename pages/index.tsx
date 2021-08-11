@@ -59,12 +59,12 @@ export default function Home() {
         </Button>
       </div>
 
-      {/* <footer className={styles.footer}>
+      <footer className={styles.footer}>
         <a href={"https://github.com/jumang4423/anatato_pingpong"}> https://github.com/jumang4423/anatato_pingpong </a>
         <div> 
           トラフィック: {todoList}
         </div>
-      </footer> */}
+      </footer>
     </div>
   )
 }
