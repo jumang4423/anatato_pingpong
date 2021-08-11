@@ -24,6 +24,11 @@ export default function Home() {
 
   useEffect(() => {
     play_pingpong()
+    // グレイにする
+    setIs_img_effect(false)
+    setTimeout(() => {
+      setIs_img_effect(true)
+    }, 1000);
   }, [todoList])
 
   const updatePingo = () => {
@@ -31,12 +36,6 @@ export default function Home() {
     const data = { title: "pongie", value: Number(todoList) + 1 }
     //add to db
     messagesRef.update(data)
-
-    // グレイにする
-    setIs_img_effect(false)
-    setTimeout(() => {
-      setIs_img_effect(true)
-    }, 1000);
   }
 
   return (
