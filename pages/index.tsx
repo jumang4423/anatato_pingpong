@@ -54,7 +54,7 @@ export default function Home() {
       </div>
 
       <footer className={styles.footer}>
-        <a> https://www.github.com/</a>
+        <a> https://github.com/jumang4423/anatato_pingpong </a>
       </footer>
     </div>
   )
