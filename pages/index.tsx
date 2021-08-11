@@ -53,7 +53,7 @@ export default function Home() {
       </div>
 
       <footer className={styles.footer}>
-        <a> https://github.com/jumang4423/anatato_pingpong </a>
+        <a href={"https://github.com/jumang4423/anatato_pingpong"}> https://github.com/jumang4423/anatato_pingpong </a>
       </footer>
     </div>
   )
