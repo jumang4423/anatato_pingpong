@@ -50,7 +50,7 @@ export default function Home() {
       <div className={styles.title}>あなたとピンポン</div>
 
       <div className={styles.container2}>
-        <img className={is_img_effect ? styles.img_gray : undefined} src={"/ping.png"} alt="バスのピンポン" width={200} onClick={() => { is_img_effect && updatePingo() }} />
+        <img className={is_img_effect ? styles.img_gray : undefined} src={"/ping.png"} alt="バスのピンポン" width={200} onClick={() => { is_img_effect &&  updatePingo() }} />
       </div>
 
       <div className={styles.container3}>
