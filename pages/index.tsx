@@ -29,7 +29,7 @@ export default function Home() {
     setIs_img_effect(false)
     setTimeout(() => {
       setIs_img_effect(true)
-    }, 1000);
+    }, 250);
   }, [todoList])
 
   const updatePingo = () => {
@@ -50,7 +50,7 @@ export default function Home() {
       <div className={styles.title}>あなたとピンポン</div>
 
       <div className={styles.container2}>
-        <img className={is_img_effect ? styles.img_gray : undefined} src={"/ping.png"} alt="バスのピンポン" width={200} onClick={() => { updatePingo() }} />
+        <img className={is_img_effect ? styles.img_gray : undefined} src={"/ping.png"} alt="バスのピンポン" width={200} onClick={() => { is_img_effect && updatePingo() }} />
       </div>
 
       <div className={styles.container3}>
@@ -59,9 +59,12 @@ export default function Home() {
         </Button>
       </div>
 
-      <footer className={styles.footer}>
+      {/* <footer className={styles.footer}>
         <a href={"https://github.com/jumang4423/anatato_pingpong"}> https://github.com/jumang4423/anatato_pingpong </a>
-      </footer>
+        <div> 
+          トラフィック: {todoList}
+        </div>
+      </footer> */}
     </div>
   )
 }
