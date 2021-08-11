@@ -5,6 +5,7 @@ import database from '../apis/firebase'
 import styles from '../styles/Home.module.css'
 
 import useSound from 'use-sound'
+import { Button } from '@material-ui/core'
 
 export default function Home() {
 
@@ -50,6 +51,12 @@ export default function Home() {
 
       <div className={styles.container2}>
         <img className={is_img_effect ? styles.img_gray : undefined} src={"/ping.png"} alt="バスのピンポン" width={200} onClick={() => { updatePingo() }} />
+      </div>
+
+      <div className={styles.container3}>
+        <Button className={styles.but} variant="contained" color="primary" href="https://twitter.com/intent/tweet?text=%E3%83%94%E3%83%B3%E3%83%9D%E3%83%B3%E4%B8%80%E7%B7%92%E3%81%AB%E3%81%97%E3%81%BE%E3%81%9B%E3%82%93%E3%81%8B!%0Ahttps%3A%2F%2Fanatato-pingpong.web.app%2F">
+          Twitterでピンポン友達を探す
+        </Button>
       </div>
 
       <footer className={styles.footer}>
