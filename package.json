@@ -6,12 +6,20 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export"
   },
   "dependencies": {
+    "firebase": "^8.9.1",
+    "firebase-admin": "^9.11.0",
+    "imagemin-mozjpeg": "^9.0.0",
     "next": "11.0.1",
+    "next-optimized-images": "^2.6.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "responsive-loader": "^2.3.0",
+    "sharp": "^0.28.3",
+    "use-sound": "^4.0.1"
   },
   "devDependencies": {
     "@types/react": "17.0.17",
