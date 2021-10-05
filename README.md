@@ -2,7 +2,7 @@
 
 友達がピンポンのおもちゃをたくさん持っていて、一緒に成らせたらいいなと思って作った
 
-[URL](https://anatato-pingpong.web.app/)
+[URL](https://tygi5.sse.codesandbox.io/)
 
 # deploy 
 
